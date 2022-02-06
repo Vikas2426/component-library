@@ -1,0 +1,79 @@
+@import url("../global.css");
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-darker);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-darker);
+}
+
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-success:hover {
+  background-color: var(--success-darker);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-darker);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+}
+
+.btn-warning:hover {
+  background-color: var(--warning-darker);
+}
+
+.btn-info {
+  background-color: var(--info);
+}
+
+.btn-infor:hover {
+  background-color: var(--infor-darker);
+}
+
+.btn-light {
+  background-color: var(--light);
+}
+
+.btn-light:hover {
+  background-color: var(--light-darker);
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.btn-dark:hover {
+  background-color: var(--dark-darker);
+}
+
+.btn-link {
+  color: var(--primary-darker);
+  background-color: transparent;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
