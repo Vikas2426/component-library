@@ -1,0 +1,45 @@
+:root {
+  --background-primary: #8bbdfa;
+  --background-secondary: #b5d0f1;
+  --background-success: #a7f3d0;
+  --background-danger: #fecaca;
+  --background-warning: #fde68a;
+  --background-info: #d1fae5;
+  --background-light: #f3f4f6;
+  --background-dark: #374151;
+}
+
+.alert {
+  bottom: 0px;
+  width: 90vw;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.alert-primary {
+  background-color: var(--background-primary);
+}
+
+.alert-secondary {
+  background-color: var(--background-secondary);
+}
+.alert-success {
+  background-color: var(--background-success);
+}
+.alert-danger {
+  background-color: var(--background-danger);
+}
+.alert-warning {
+  background-color: var(--background-warning);
+}
+.alert-info {
+  background-color: var(--background-info);
+}
+.alert-light {
+  background-color: var(--background-light);
+}
+.alert-dark {
+  background-color: var(--background-dark);
+  color: var(--background-light);
+}
