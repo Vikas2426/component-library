@@ -1,14 +1,4 @@
-:root {
-  --background-primary: #8bbdfa;
-  --background-secondary: #b5d0f1;
-  --background-success: #a7f3d0;
-  --background-danger: #fecaca;
-  --background-warning: #fde68a;
-  --background-info: #d1fae5;
-  --background-light: #f3f4f6;
-  --background-dark: #374151;
-}
-
+@import url("../global.css");
 .alert {
   bottom: 0px;
   width: 90vw;
