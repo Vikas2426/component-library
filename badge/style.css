@@ -8,8 +8,9 @@
   justify-content: center;
   margin: 10px;
   color: var(--lynx-white);
-  background-color: var(--danger);
+  background-color: var(--action-light);
   border: none;
+  padding: 10px;
 }
 
 .badge-icon {
