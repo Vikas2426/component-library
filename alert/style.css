@@ -1,0 +1,30 @@
+@import url("../global.css");
+
+.alert {
+  padding: 15px 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.alert-primary {
+  color: var(--lynx-white);
+  background-color: var(--primary-light);
+}
+
+.alert-secondary {
+  color: var(--primary);
+  background-color: transparent;
+  border: 2px solid var(--primary);
+}
+
+.alert-success {
+  color: var(--lynx-white);
+  background-color: var(--action);
+}
+
+.alert-danger {
+  color: var(--lynx-white);
+  background-color: var(--danger);
+}
