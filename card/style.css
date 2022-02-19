@@ -1,0 +1,65 @@
+@import url("../global.css");
+@import url("../button/style.css");
+@import url("../badge/style.css");
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  max-height: 500px;
+  max-width: 330px;
+  border: 1px solid var(--grey);
+  margin: 10px;
+  position: relative;
+  background-color: var(--lynx-white);
+}
+
+.close {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card-image {
+  height: 50%;
+  width: 100%;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+.btn {
+  padding: 2px;
+  color: var(--lynx-white);
+}
+
+.image-underlay {
+  width: 100%;
+  height: 100%;
+  filter: saturate(200%) brightness(30%) hue-rotate(330deg);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  color: var(--lynx-white);
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 1rem 0.2rem var(--grey);
+}
+
+.card-horizontal {
+  max-height: 200px;
+  max-width: 500px;
+  display: flex;
+}
+
+.card-horizontal > .card-image {
+  height: 100%;
+  width: 50%;
+}
