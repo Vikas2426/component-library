@@ -10,18 +10,18 @@
 }
 
 .avatar-lg {
-  height: 100px;
-  width: 100px;
+  height: 6rem;
+  width: 6rem;
 }
 
 .avatar-md {
-  height: 70px;
-  width: 70px;
+  height: 4rem;
+  width: 4rem;
 }
 
 .avatar-sm {
-  height: 50px;
-  width: 50px;
+  height: 3rem;
+  width: 3rem;
 }
 
 #avatar-img {
