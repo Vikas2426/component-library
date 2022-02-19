@@ -1,0 +1,78 @@
+@import url("../global.css");
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  min-width: 10rem;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-light);
+}
+
+.btn-secondary {
+  color: var(--primary-dark);
+  background-color: transparent;
+  border: 2px solid var(--primary-dark);
+}
+
+.btn-secondary:hover {
+  color: var(--primary-light);
+  border: 2px solid var(--primary-light);
+}
+
+.btn-danger {
+  color: white;
+  background-color: var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-light);
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--action-dark);
+  color: white;
+}
+.btn-icon:hover {
+  background-color: var(--action);
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  color: white;
+  background-color: var(--primary-light);
+  cursor: default;
+}
+
+.btn-link {
+  color: var(--primary);
+  background-color: transparent;
+  min-width: auto;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
