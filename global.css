@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background-color: var(--lynx-white);
-}
-
 :root {
   --primary-light: #3b82f6;
   --primary: #2563eb;
