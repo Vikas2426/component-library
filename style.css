@@ -1,0 +1,21 @@
+@import url("./global.css");
+@import url("./alert/style.css");
+@import url("./avatar/style.css");
+@import url("./badge/style.css");
+@import url("./button/style.css");
+@import url("./card/style.css");
+@import url("./image/style.css");
+@import url("./input/style.css");
+
+body {
+  min-height: 100vh;
+}
+section {
+  width: 100vw;
+  padding: 50px;
+}
+
+.image-container {
+  width: 400px;
+  height: 400px;
+}

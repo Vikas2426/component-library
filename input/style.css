@@ -8,6 +8,8 @@
   width: 100%;
   padding: 0.5rem;
   font-size: large;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
 }
 
 .text-input-sm {

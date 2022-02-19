@@ -32,7 +32,7 @@
   text-align: justify;
 }
 
-.btn {
+.card > .close > .btn {
   padding: 2px;
   color: var(--lynx-white);
 }

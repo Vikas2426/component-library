@@ -6,15 +6,15 @@
 
 :root {
   --primary-light: #3b82f6;
-  --primary: #2563eb;
+  --primary: #4285f4;
   --primary-dark: #1d4ed8;
 
   --danger-light: #ef4444;
-  --danger: #dc2626;
+  --danger: #db4437;
   --danger-dark: #b91c1c;
 
   --action-light: #34d399;
-  --action: #059669;
+  --action: #0f9d58;
   --action-dark: #047857;
 
   --grey-light: #d1d5db;
