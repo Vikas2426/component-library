@@ -1,0 +1,49 @@
+@import url("../global.css");
+@import url("../button/style.css");
+
+.badge-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 2rem;
+}
+
+.badge-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.badge {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--lynx-white);
+  background-color: var(--violet-light);
+}
+
+.badge-left {
+  top: -5px;
+  left: -5px;
+}
+
+.badge-left-bottom {
+  bottom: -5px;
+  left: -5px;
+}
+
+.badge-right {
+  top: -5px;
+  right: -5px;
+}
+
+.badge-right-bottom {
+  bottom: -5px;
+  right: -5px;
+}
