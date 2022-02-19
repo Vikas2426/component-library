@@ -1,0 +1,60 @@
+@import url("../global.css");
+
+.input-container {
+  margin: 0.5rem;
+}
+
+.text-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.text-input-sm {
+  padding: 0.3rem;
+  font-size: small;
+}
+
+.text-input-lg {
+  padding: 0.8rem;
+  font-size: larger;
+}
+
+.text-input-error {
+  border: 1px solid var(--danger);
+}
+
+.error-text {
+  color: var(--danger);
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.2rem;
+}
+
+.checkbox-sm {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.checkbox-lg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.dropdown-menu {
+  padding: 0.7rem;
+  font-size: large;
+}
+
+.dropdown-item {
+  padding: 0.7rem;
+}
+
+.dropdown-menu-bg {
+  background-color: var(--grey-dark);
+  color: var(--lynx-white);
+  border-color: var(--grey-dark);
+}

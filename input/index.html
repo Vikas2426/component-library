@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="input-container">
+        <input type="text" placeholder="Small text input" class="text-input text-input-sm"
+            aria-label="Small size text input">
+    </div>
+
+    <div class="input-container">
+        <input type="text" placeholder="Default text input" class="text-input" aria-label="Default size text input">
+    </div>
+
+    <div class="input-container">
+        <input type="text" placeholder="Large text input" class="text-input text-input-lg"
+            aria-label="Large size text input">
+    </div>
+
+    <div class="input-container">
+        <input type="text" placeholder="Error text input" class="text-input text-input-error"
+            aria-label="Default size text input">
+        <span class="error-text">*Input required</span>
+    </div>
+    <div class="input-container">
+        <input class="checkbox checkbox-sm" type="checkbox" id="vehicle1" name="small-checkbox" value="Bike">
+        <label for="small-checkbox"> Small checkbox</label><br>
+        <input class="checkbox" type="checkbox" id="vehicle2" name="default-checkbox" value="Car">
+        <label for="default-checkbox"> Default checkbox</label><br>
+        <input class="checkbox checkbox-lg" type="checkbox" id="vehicle3" name="large-checkbox" value="Boat">
+        <label for="large-checkbox"> Large Checkbox</label><br>
+    </div>
+
+    <div class="input-container">
+        <select class="dropdown-menu">
+            <option class="dropdown-item" value="*">Select</option>
+            <option class="dropdown-item" value="*">Action</option>
+            <option class="dropdown-item" value="*">Another action</option>
+            <option class="dropdown-item" value="*">Something else here</option>
+            <option class="dropdown-item" value="*">Separated link</option>
+        </select>
+    </div>
+
+    <div class="input-container">
+        <select class="dropdown-menu dropdown-menu-bg">
+            <option class="dropdown-item" value="*">Select</option>
+            <option class="dropdown-item" value="*">Action</option>
+            <option class="dropdown-item" value="*">Another action</option>
+            <option class="dropdown-item" value="*">Something else here</option>
+            <option class="dropdown-item" value="*">Separated link</option>
+        </select>
+    </div>
+</body>
+
+</html>
