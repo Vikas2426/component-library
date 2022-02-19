@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary-light: #3b82f6;
   --primary: #2563eb;
