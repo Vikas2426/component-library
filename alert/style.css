@@ -5,11 +5,12 @@
   margin: 10px;
   text-align: center;
   border-radius: 5px;
-  font-size: large;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .alert-primary {
-  color: var(--lynx-white);
+  color: var(--primary-dark);
   background-color: var(--primary-light);
 }
 
@@ -20,11 +21,11 @@
 }
 
 .alert-success {
-  color: var(--lynx-white);
-  background-color: var(--action);
+  color: var(--action-dark);
+  background-color: var(--action-light);
 }
 
 .alert-danger {
-  color: var(--lynx-white);
-  background-color: var(--danger);
+  color: var(--danger-dark);
+  background-color: var(--danger-light);
 }

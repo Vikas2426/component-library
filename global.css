@@ -5,17 +5,17 @@
 }
 
 :root {
-  --primary-light: #3b82f6;
+  --primary-light: #6fa6ff;
   --primary: #2563eb;
-  --primary-dark: #1d4ed8;
+  --primary-dark: #1146da;
 
-  --danger-light: #ef4444;
+  --danger-light: #e47a7a;
   --danger: #dc2626;
-  --danger-dark: #b91c1c;
+  --danger-dark: #9b0404;
 
   --action-light: #34d399;
-  --action: #059669;
-  --action-dark: #047857;
+  --action: #049466;
+  --action-dark: #014632;
 
   --grey-light: #d1d5db;
   --grey: #9ca3af;

@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: var(--lynx-white);
+  color: var(--white);
   background-color: var(--violet-light);
 }
 
