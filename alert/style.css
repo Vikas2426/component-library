@@ -8,24 +8,3 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
-
-.alert-primary {
-  color: var(--primary-dark);
-  background-color: var(--primary-light);
-}
-
-.alert-secondary {
-  color: var(--primary);
-  background-color: transparent;
-  border: 2px solid var(--primary);
-}
-
-.alert-success {
-  color: var(--action-dark);
-  background-color: var(--action-light);
-}
-
-.alert-danger {
-  color: var(--danger-dark);
-  background-color: var(--danger-light);
-}

@@ -19,8 +19,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: var(--white);
-  background-color: var(--violet-light);
 }
 
 .badge-left {
@@ -40,5 +38,19 @@
 
 .badge-right-bottom {
   bottom: -5px;
+  right: -5px;
+}
+
+.badge[data-position^="top-"] {
+  top: -5px;
+}
+
+.badge[data-position^="bottom-"] {
+  bottom: -5px;
+}
+.badge[data-position$="-left"] {
+  left: -5px;
+}
+.badge[data-position$="-right"] {
   right: -5px;
 }
