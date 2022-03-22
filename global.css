@@ -90,3 +90,36 @@
 .br-full {
   border-radius: 999px;
 }
+
+.primary {
+  color: var(--white);
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+}
+
+.secondary {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.danger {
+  color: var(--white);
+  border: 1px solid var(--danger);
+  background-color: var(--danger);
+}
+
+.action {
+  color: var(--white);
+  border: 1px solid var(--action);
+  background-color: var(--action);
+}
+.dark {
+  color: var(--white);
+  border: 1px solid var(--grey-dark);
+  background-color: var(--grey-dark);
+}
+.primary-light {
+  color: var(--white);
+  border: 1px solid var(--primary-light);
+  background-color: var(--primary-light);
+}

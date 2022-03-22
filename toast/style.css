@@ -42,36 +42,3 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
-.toast-primary {
-  color: var(--white);
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
-}
-
-.toast-secondary {
-  color: var(--primary);
-  border: 1px solid var(--primary);
-}
-
-.toast-danger {
-  color: var(--white);
-  border: 1px solid var(--danger);
-  background-color: var(--danger);
-}
-
-.toast-action {
-  color: var(--white);
-  border: 1px solid var(--action);
-  background-color: var(--action);
-}
-.toast-dark {
-  color: var(--white);
-  border: 1px solid var(--grey-dark);
-  background-color: var(--grey-dark);
-}
-.toast-primary-light {
-  color: var(--white);
-  border: 1px solid var(--primary-light);
-  background-color: var(--primary-light);
-}
