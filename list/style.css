@@ -1,8 +1,5 @@
 @import url("../global.css");
 
-body {
-  padding: 2rem;
-}
 .list-container {
   border: 2px solid var(--grey);
   border-radius: 10px;
