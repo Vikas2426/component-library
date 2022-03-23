@@ -1,0 +1,40 @@
+@import url("../global.css");
+
+.text-heading {
+  font-weight: 600;
+  font-size: 4rem;
+  padding: 0.5rem;
+}
+
+.text-sub-heading {
+  font-weight: 500;
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+
+.text-lg {
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+.text-md {
+  font-weight: 200;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.text-sm {
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 0.3rem;
+}
+
+.text-gy {
+  color: var(--grey-dark);
+  margin: 0.3rem;
+}
+
+.text-center {
+  text-align: center;
+}
