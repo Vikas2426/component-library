@@ -1,0 +1,29 @@
+@import url("../global.css");
+
+.rating-container {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.5em;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  text-align: center;
+  width: 5em;
+}
+
+.rating-input {
+  display: none;
+}
+
+.rating-label {
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.rating-container :checked ~ .rating-label {
+  color: var(--orange);
+}
+
+.rating-label:hover,
+.rating-label:hover ~ label {
+  color: var(--orange);
+}
