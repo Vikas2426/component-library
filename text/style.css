@@ -1,5 +1,11 @@
 @import url("../global.css");
 
+p {
+  margin: 5px;
+  background-color: lightpink;
+  padding: 10px;
+  color: black;
+}
 .text-heading {
   font-weight: 600;
   font-size: 4rem;
@@ -36,5 +42,33 @@
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
 }
