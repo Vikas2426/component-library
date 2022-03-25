@@ -1,0 +1,73 @@
+@import url("../global.css");
+
+.grid-container {
+  width: 100%;
+}
+
+.grid-row {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.grid-col-30 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+.grid-col-40 {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.grid-col-50 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.grid-col-60 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.grid-col-70 {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+.grid-col-80 {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-self-start {
+  align-self: flex-start !important;
+}
+
+.align-self-center {
+  align-self: center !important;
+}
+
+.align-self-end {
+  align-self: flex-end !important;
+}
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}

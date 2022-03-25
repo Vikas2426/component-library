@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Grid with equal columns</h2>
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <h2>Grid with a different column widths</h2>
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col grid-col-50">Column 2 - 50% width</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col grid-col-30">Column 1- 30% width</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col grid-col-60">Column 3- 60% width</div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col grid-col-70">Column 1- 70% width</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col  grid-col-80">Column 2- 80% width</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <h2>Row Vertical alignment</h2>
+    <div class="grid-container">
+        <div class="grid-row ht-md align-items-start">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row ht-md align-items-center">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row ht-md align-items-end">
+            <div class="grid-col">Column 1</div>
+            <div class="grid-col">Column 2</div>
+            <div class="grid-col">Column 3</div>
+        </div>
+    </div>
+    <h2>Column Vertical alignment</h2>
+    <div class="grid-container">
+        <div class="grid-row ht-md">
+            <div class="grid-col align-self-start">Column 1</div>
+            <div class="grid-col align-self-center">Column 2</div>
+            <div class="grid-col align-self-end">Column 3</div>
+        </div>
+    </div>
+    <h2>Horizontal alignment</h2>
+    <div class="grid-container">
+        <div class="grid-row ht-md justify-content-start">
+            <div class="grid-col grid-col-30">Column 1</div>
+            <div class="grid-col grid-col-30">Column 2</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row ht-md justify-content-center">
+            <div class="grid-col grid-col-30">Column 1</div>
+            <div class="grid-col grid-col-30">Column 2</div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-row ht-md justify-content-end">
+            <div class="grid-col grid-col-30">Column 1</div>
+            <div class="grid-col grid-col-30">Column 2</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
